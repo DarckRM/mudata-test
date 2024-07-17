@@ -1,0 +1,326 @@
+repo_name: DarckRM/mudata-test
+report_id: 2c5cd0e30108b23d54f4b4f5308aaf73
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-17T08:11:28+00:00'
+requested_by: DarckRM
+provider: github
+branch: main
+detected_tools_count: 22
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/DarckRM/mudata-test
+  detection_source: Repo Metadata
+- name: Gin Gonic
+  description: HTTP web framework written in Go
+  website_url: https://gin-gonic.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/4221/7894478.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DarckRM/mudata-test
+  detection_source: Repo Metadata
+- name: Hugo
+  description: A Fast and Flexible Static Site Generator written in Go
+  website_url: https://gohugo.io/
+  version: 0.118.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/1158/default_2e4f7c34f249c9c44d4c0b776018014c06692d03.jpg
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+  vulnerabilities:
+  - name: Improper Verification of Cryptographic Signature in golang.org/x/crypto
+    cve_id: CVE-2020-9283
+    cve_url: https://github.com/advisories/GHSA-ffhg-7mh4-33c4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.0.0-20200220183623-bac4c82f6975
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.2.2
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  version: 1.9.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: codec
+  description: Idiomatic codec and rpc lib for msgpack, cbor, json, etc
+  package_url: https://pkg.go.dev/github.com/ugorji/go/codec
+  version: 1.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.15.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.6.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: gin
+  description: Gin is a HTTP web framework written in Go
+  package_url: https://pkg.go.dev/github.com/gin-gonic/gin
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: go-toml
+  description: Go library for the TOML language
+  package_url: https://pkg.go.dev/github.com/pelletier/go-toml
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: locales
+  description: ":earth_americas: a set of locales generated from the CLDR Project
+    which can be used independently or within an i18n package; these were built for
+    use with"
+  package_url: https://pkg.go.dev/github.com/go-playground/locales
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
+- name: universal-translator
+  description: ":speech_balloon: i18n Translator for Go/Golang using CLDR data + pluralization
+    rules"
+  package_url: https://pkg.go.dev/github.com/go-playground/universal-translator
+  version: 0.18.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/DarckRM/mudata-test/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: DarckRM
+  last_updated_on: 2023-09-11 21:37:57.000000000 Z
